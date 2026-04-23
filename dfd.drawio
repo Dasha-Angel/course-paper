@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Страница-1" id="o_D6qnhsan1Qliv6vd2n">
+    <mxGraphModel dx="1085" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3PRocRZjILFQjhDgaYbB-1" parent="1" style="html=1;whiteSpace=wrap;" value="Закупщик" vertex="1">
+          <mxGeometry height="50" width="110" x="30" y="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3PRocRZjILFQjhDgaYbB-2" parent="1" style="html=1;whiteSpace=wrap;" value="Поставщик" vertex="1">
+          <mxGeometry height="50" width="110" x="610" y="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3PRocRZjILFQjhDgaYbB-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Обработка заказа" vertex="1">
+          <mxGeometry height="85" width="150" x="290" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="3PRocRZjILFQjhDgaYbB-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="Запрос на закупку">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="140" y="220" as="sourcePoint" />
+            <mxPoint x="290" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3PRocRZjILFQjhDgaYbB-5" edge="1" parent="1" source="3PRocRZjILFQjhDgaYbB-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.666;exitDx=0;exitDy=0;entryX=1.002;entryY=0.793;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="3PRocRZjILFQjhDgaYbB-1" value="Результат согласования&amp;nbsp;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="290" y="262.5" as="sourcePoint" />
+            <mxPoint x="190" y="243.75238095238075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3PRocRZjILFQjhDgaYbB-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.005;entryY=0.194;entryDx=0;entryDy=0;entryPerimeter=0;" target="3PRocRZjILFQjhDgaYbB-2" value="Уведомление о заказе">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="440" y="222.5" as="sourcePoint" />
+            <mxPoint x="590" y="222.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3PRocRZjILFQjhDgaYbB-7" edge="1" parent="1" source="3PRocRZjILFQjhDgaYbB-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=-0.003;exitY=0.801;exitDx=0;exitDy=0;exitPerimeter=0;" value="Статус заказа">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="520" y="252.5" as="sourcePoint" />
+            <mxPoint x="440" y="252.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yl_VEFPV5er7PCR6ZIFb-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="Yl_VEFPV5er7PCR6ZIFb-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0p" vertex="1">
+          <mxGeometry height="30" width="60" x="278" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="Yl_VEFPV5er7PCR6ZIFb-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="9" y="208.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yl_VEFPV5er7PCR6ZIFb-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="208.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
