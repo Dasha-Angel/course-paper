@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="rDby7kAda1NreK4oWLOB">
-    <mxGraphModel dx="434" dy="251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1012" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry height="26" width="160" y="190" as="geometry" />
         </mxCell>
         <mxCell id="BWWCMNwGcwti1gO_-A58-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Заказчик" vertex="1">
-          <mxGeometry height="190" width="160" x="460" y="870" as="geometry" />
+          <mxGeometry height="164" width="160" x="460" y="870" as="geometry" />
         </mxCell>
         <mxCell id="BWWCMNwGcwti1gO_-A58-11" parent="BWWCMNwGcwti1gO_-A58-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id: int&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -51,9 +51,6 @@
         </mxCell>
         <mxCell id="BWWCMNwGcwti1gO_-A58-16" parent="BWWCMNwGcwti1gO_-A58-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ОплатитьЗаказ: void" vertex="1">
           <mxGeometry height="26" width="160" y="138" as="geometry" />
-        </mxCell>
-        <mxCell id="BWWCMNwGcwti1gO_-A58-17" parent="BWWCMNwGcwti1gO_-A58-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ПринятьПродукцию: void" vertex="1">
-          <mxGeometry height="26" width="160" y="164" as="geometry" />
         </mxCell>
         <mxCell id="BWWCMNwGcwti1gO_-A58-18" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Поставщик" vertex="1">
           <mxGeometry height="166" width="160" x="600" y="640" as="geometry" />
